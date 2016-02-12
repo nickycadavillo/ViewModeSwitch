@@ -1,4 +1,4 @@
-/******Same for both css sheets*******/
+/***********SAME FOR BOTH CSS SHEETS************/
 
 body {
   margin: auto;
@@ -46,17 +46,69 @@ ul {
   list-style-type: none;
 }
 
-/*******Different for list view********/
+button{
+  width:150px;
+  height:50px;
+  background-color: #47a3da;
+  color: white;
+  font-size: 1em;
+  border: none;
+}
+
+
+/************DIFFERENT FOR GRID VIEW**************/
+
+section {
+  text-align: center;
+  margin-left: 5%;
+}
+
+ul {
+  padding-left: 0px;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
 
 ul#first-row{
   width:90%;
-  border: 1px solid black;
+  margin-left: 2%;
 }
 
-li {
-  max-width: 30%;
+ul#second-row{
+  width:90%;
+  margin-left: 2%;
+
 }
 
-li.grid-row{
+ul#third-row{
+  width:90%;
+  margin-left: 2%;
+
+}
+
+li.grid-row{ /*makes list items align in a row*/
   display: inline-block;
+}
+
+li.name {
+  padding-top: 1em;
+  width: 300px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+li.price {
+  padding-top: 1em;
+  width: 300px;
+  font-size: 1.4em;
+  color: lightgray;
+}
+
+li.description {
+  padding-top: 1em;
+  width: 300px;
+}
+
+button{
+  margin-top: 1em;
 }
