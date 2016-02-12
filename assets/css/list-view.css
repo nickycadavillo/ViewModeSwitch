@@ -55,6 +55,9 @@ button{
   border: none;
 }
 
+i#coffee{
+  color: lightgray;
+}
 
 /************DIFFERENT FOR LIST VIEW************/
 
