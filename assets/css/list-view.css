@@ -1,3 +1,4 @@
+
 /***********SAME FOR BOTH CSS SHEETS************/
 
 body {
@@ -62,15 +63,15 @@ i#coffee{
 /************DIFFERENT FOR LIST VIEW************/
 
 ul#first-row{
-  padding-left: 0px;
+  padding-right: 0px;
 }
 
 ul#second-row{
-  padding-left: 0px;
+  padding-right: 0px;
 }
 
 ul#third-row{
-  padding-left: 0px;
+  padding-right: 0px;
 }
 
 li {
@@ -78,8 +79,9 @@ li {
   padding: 1em;
 }
 
+
 li.name {
-  width: 150px;
+  width: 120px;
   font-size: 1.3em;
   font-weight: bold;
 }
@@ -91,5 +93,5 @@ li.price {
 }
 
 li.description {
-  width: 400px;
+  width: 300px;
 }
