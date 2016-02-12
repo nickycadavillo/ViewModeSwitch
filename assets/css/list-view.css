@@ -48,6 +48,17 @@ ul {
 
 /*******Different for list view********/
 
+ul#first-row{
+  padding-left: 0px;
+}
+
+ul#second-row{
+  padding-left: 0px;
+}
+
+ul#third-row{
+  padding-left: 0px;
+}
 
 li {
   display: inline-block;
@@ -55,13 +66,26 @@ li {
 }
 
 li.name {
-  width: 100px;
+  width: 150px;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 li.price {
-  width: 100px;
+  width: 90px;
+  font-size: 1.4em;
+  color: lightgray;
 }
 
 li.description {
   width: 400px;
+}
+
+button{
+  width:150px;
+  height:50px;
+  background-color: #47a3da;
+  color: white;
+  font-size: 1em;
+  border: none;
 }
