@@ -1,6 +1,7 @@
 /******Same for both css sheets*******/
 
 body {
+  margin: auto;
   font-size: 1em;
   font-family: 'Lato', sans-serif;
   color: #47a3da;
@@ -9,23 +10,28 @@ body {
 
 header {
   margin-left: 6%;
+  margin-right: 6%;
   margin-bottom: 5%;
-  border: black 1px solid;
+  border-bottom: 3px solid #47a3da;
   text-align: right;
+
 }
 
 h1 {
+  margin-left: 10%;
   text-align: left;
 }
 
 h5 {
+  margin-left: 10%;
   text-align: left;
   letter-spacing: .5em;
 }
 
 .container {
+  border: 3px solid #47a3da;
   width: 80%;
-  margin-left: 6%;
+  margin: auto;
 }
 
 i#grid{
