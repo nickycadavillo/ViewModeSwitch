@@ -47,3 +47,16 @@ ul {
 }
 
 /*******Different for list view********/
+
+ul#first-row{
+  width:90%;
+  border: 1px solid black;
+}
+
+li {
+  max-width: 30%;
+}
+
+li.grid-row{
+  display: inline-block;
+}
